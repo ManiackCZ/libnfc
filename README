@@ -1,49 +1,10 @@
-*-
-* Free/Libre Near Field Communication (NFC) library
-* 
-* Libnfc historical contributors:
-* Copyright (C) 2009      Roel Verdult
-* Copyright (C) 2009-2015 Romuald Conty
-* Copyright (C) 2010-2012 Romain Tartière
-* Copyright (C) 2010-2013 Philippe Teuwen
-* Copyright (C) 2012-2013 Ludovic Rousseau
-* Additional contributors:
-* See AUTHORS file
--*
+INTRO
+==========
+This is modification of libnfc library which goal is to add support for cheap nfc 
+solutions as mfrc522 breakout board combined with arduino.
+<b>Original README below (will be modified in future)</b>
 
-General Information
-===================
-
-libnfc is a library which allows userspace application access to NFC devices.
-
-The official web site is:
-  http://www.nfc-tools.org/
-
-The official forum site is:
-  http://www.libnfc.org/community/
-
-The official development site is:
-  https://github.com/nfc-tools/libnfc
-
-Important note: this file covers POSIX systems, for Windows please read README-Windows.txt
-
-Requirements
-============
-
-Some NFC drivers depend on third party software:
-
-* pn53x_usb & acr122_usb:
-
-   - libusb-0.1 http://libusb.sf.net
-
-* acr122_pcsc:
-
-   - pcsc-lite http://pcsclite.alioth.debian.org/
-
-The regression test suite depends on the cutter framework:
-http://cutter.sf.net
-
-Installation
+1Installation
 ============
 
 See the file 'INSTALL' for configure, build and install details.
